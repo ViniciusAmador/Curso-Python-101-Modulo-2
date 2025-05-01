@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/banner_python101.png" width="400" alt="Python101 Logo">
+  <img src="assets/images1.png" width="400" alt="Python101 Logo">
 </p>
 
 # 🐍 python101
