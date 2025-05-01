@@ -36,7 +36,9 @@
 - Imutabilidade e Vantagens | Immutability and Benefits | 不可变性与优点
 - Desempacotamento de Tuplas | Tuple Unpacking | 元组解包
 
-### Tópicos especiais em Construção
+### 4. Exercícios: Algoritmos de Busca | Search Algorithms Exercises | 查找算法练习
+- Pesquisa Linear | Linear Search | 线性查找
+- Pesquisa Binária | Binary Search | 二分查找
 
 ---
 
@@ -225,6 +227,77 @@ Permite extrair os valores diretamente para variáveis.
 - Use tuplas quando os dados não devem ser alterados.
 - Empregue tuplas como chaves de dicionários, se necessário.
 - Desempacote tuplas para clareza e legibilidade.
+
 ❌ O que evitar:
 - Não tente modificar elementos: isso resultará em TypeError.
 - Evite usar tuplas para dados que mudam com frequência.
+
+### 4. Exercícios: Algoritmos de Busca | Search Algorithms Exercises | 查找算法练习
+
+🔍 Pesquisa Linear | Linear Search | 线性查找
+💡 Princípio:
+A pesquisa linear percorre todos os elementos de uma lista até encontrar o valor desejado ou até o fim da lista.
+🧠 Complexidade:
+Tempo: O(n) — Cresce linearmente com o número de elementos.
+Ideal para listas desordenadas ou curtas.
+
+📌 Exemplo:
+```bash
+valores = [10, 20, 30, 40, 50]
+alvo = 30
+encontrado = False
+
+for valor in valores:
+    if valor == alvo:
+        encontrado = True
+        break
+
+if encontrado:
+    print("Valor encontrado!")
+else:
+    print("Valor não encontrado.")
+```
+🧪 Exercício:
+
+Implemente uma função que receba uma lista de nomes e um nome alvo, e diga se o nome está presente ou não usando busca linear.
+
+🔎 Pesquisa Binária | Binary Search | 二分查找
+
+💡 Princípio:
+A pesquisa binária divide uma lista ordenada ao meio a cada passo, reduzindo drasticamente o número de comparações.
+🧠 Complexidade:
+Tempo: O(log n) — Cresce logaritmicamente com o número de elementos.
+Necessita que a lista esteja ordenada.
+
+📌 Exemplo:
+```bash
+def busca_binaria(lista, alvo):
+    inicio = 0
+    fim = len(lista) - 1
+
+    while inicio <= fim:
+        meio = (inicio + fim) // 2
+        if lista[meio] == alvo:
+            return True
+        elif lista[meio] < alvo:
+            inicio = meio + 1
+        else:
+            fim = meio - 1
+    return False
+
+numeros = [10, 20, 30, 40, 50, 60, 70]
+print(busca_binaria(numeros, 50))  # True
+```
+🧪 Exercício:
+Crie uma função que verifique se um número está presente em uma lista ordenada usando busca binária.
+
+🧠 Conceito de Complexidade de Algoritmos | Algorithm Complexity | 算法复杂度
+A complexidade de um algoritmo expressa quanto tempo (ou memória) ele consome à medida que a entrada cresce.
+
+Tipos comuns:
+- O(1): tempo constante (ex: acessar um índice de lista)
+- O(n): tempo linear (ex: laço for em uma lista)
+- O(log n): tempo logarítmico (ex: busca binária)
+- O(n²): tempo quadrático (ex: dois loops aninhados)
+
+📌 Avaliar a complexidade é essencial para escolher o algoritmo mais eficiente para cada situação.
