@@ -305,3 +305,7 @@ Tipos comuns:
 🎉 Parabéns! Você concluiu o Módulo 2 sobre estrutura de dados e coleções. Agora você entende coleções de dados como listas, tuplas e dicionários, além de algoritmos aplicados a problemas específicos da área.[✅ Vá para o Exercício 1 e pratique o que aprendeu com Busca Linear!](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exercicio1.py)[✅ Vá para o Exercício 2 e pratique o que aprendeu com Busca Binária!](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exerc%C3%ADcio2.py)
 🎉 Congratulations! You have completed Module 2 on data structures and collections. Now you understand data collections such as lists, tuples, and dictionaries, and algorithms applied to specific problems.[✅ Go to Exercise 1 and practice Linear Search!](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exercicio1.py)[✅ Go to Exercise 2 and practice Binary Search!](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exerc%C3%ADcio2.py)
 🎉 恭喜你完成了模块 2：数据结构与集合。你现在已经掌握了如列表、元组和字典等集合的使用，以及应用于特定问题的算法。[✅ 前往练习 1，练习线性查找！](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exercicio1.py)[✅ 前往练习 2，练习二分查找！](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/blob/main/Exerc%C3%ADcio2.py)
+
+
+# A partir daqui, entraremos em tópicos avançados do curso Python-101.
+## Em contrução [...]
